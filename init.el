@@ -174,6 +174,9 @@
 ;;----------------------------------------------------------------------------
 ;; Allow users to provide an optional "init-local" containing personal settings
 ;;----------------------------------------------------------------------------
+(require 'init-evil)
+(require 'init-neotree)
+(require 'init-ts-tsx)
 (require 'init-local nil t)
 
 
