@@ -9,6 +9,7 @@
     (evil-mode t)
     ;; shortcuts config
     (evil-define-key 'normal go-mode-map "gd" 'godef-jump)
+    (evil-define-key 'normal go-mode-map "gb" 'xref-pop-marker-stack)
     (define-key evil-normal-state-map (kbd "gc") 'comment-line)
     )
   )

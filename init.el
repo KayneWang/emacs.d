@@ -180,6 +180,7 @@
 (require 'init-neotree)
 (require 'init-ts-tsx)
 (require 'init-golang)
+(require 'init-golang-lsp)
 
 (require 'init-local nil t)
 
