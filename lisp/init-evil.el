@@ -2,14 +2,19 @@
 ;;; Commentary:
 ;;; Code:
 
-(require 'evil)
-(evil-mode 1)
+(use-package evil
+  :ensure t
+  :init
+  (progn
+    (evil-mode t)
+    ;; shortcuts config
+    (evil-define-key 'normal go-mode-map "gd" 'godef-jump)
+    (define-key evil-normal-state-map (kbd "gc") 'comment-line)
+    )
+  )
 
 ;; fonts config
 (set-frame-font "Jetbrains Mono-15")
-
-;; shortcuts config
-(define-key evil-normal-state-map (kbd "gc") 'comment-line)
 
 (provide 'init-evil)
 ;;; init-evil.el ends here

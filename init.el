@@ -174,9 +174,13 @@
 ;;----------------------------------------------------------------------------
 ;; Allow users to provide an optional "init-local" containing personal settings
 ;;----------------------------------------------------------------------------
+(require 'init-use-package)
+
 (require 'init-evil)
 (require 'init-neotree)
 (require 'init-ts-tsx)
+(require 'init-golang)
+
 (require 'init-local nil t)
 
 
