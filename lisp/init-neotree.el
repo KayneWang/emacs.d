@@ -9,6 +9,7 @@
   :requires (all-the-icons evil)
   :config
   (global-set-key [f8] 'neotree-toggle)
+  (setq projectile-switch-project-action 'neotree-projectile-action)
   :hook
   (neotree-mode .
                 (lambda ()
