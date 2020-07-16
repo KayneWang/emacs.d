@@ -1,12 +1,32 @@
-(((":config" .
+((("Button" .
+   [1 0 0 0 0 0])
+  ("default" .
    [1 0 0 0 0 0 0])
-  ("Init" .
+  ("export" .
+   [1 0 0 0 0 0])
+  ("string" .
+   [1 0 0 0 0 0])
+  ("type" .
+   [1 0 0 0])
+  ("ReactNode" .
+   [1 0 0 0 0 0 0 0 0])
+  ("React" .
+   [2 0 0 0 0])
+  ("children" .
+   [0 0 0 0 1 0 0 0])
+  ("Props" .
+   [1 0 0 0 0])
+  ("interface" .
+   [2 0 0 0 0 0 0 0 0])
+  ("init-golang-lsp" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("init-use-package.el" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("init" .
    [1 0 0 0])
   ("require" .
    [1 0 0 0 0 0 0])
-  ("init" .
+  ("Init" .
    [1 0 0 0])
-  ("init-use-package.el" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("init-golang-lsp" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])))
+  (":config" .
+   [1 0 0 0 0 0 0])))
